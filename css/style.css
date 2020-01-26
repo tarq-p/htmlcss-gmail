@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('http://www.aidiaadv.it/wp-content/uploads/2013/08/sfondi-desktop-HD-carta-da-pacchi-1920x1200-765x400.jpg');
+    background-size: cover;
+}
+
+img {
+    float:left;
+    width: 100px;
+    margin: 20px;
+}
+
+header {
+    width: 800px;
+    border-bottom: 1px outset red;
+    margin: 0 auto;
+}
+
+header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1 {
+    padding-top: 39px;
+    color: red;
+    font-size: 40px;
+}
+
+main {
+    width: 800px;
+    margin: 20px auto;
+}
+
+main:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.Cerca {
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Invio {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.Messaggio {
+    float:left;
+    margin: 35px 9px 35px 10px;
+    font-size: 25px;
+}
+
+.Notifica {
+    float:left;
+    margin-top: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+footer {
+    width: 800px;
+    margin: 18px auto;
+    border-top: 1px outset red;
+    padding-top: 20px;
+}
+
+.Inbox {
+    border: 2px solid;
+    background-color: lightgrey;
+}
+
+
+
+.Realizzato {
+    border-top: 1px outset red;
+    margin-top: 18px;
+    text-align: center;
+    padding: 5px;
+    color: blue;
+}
